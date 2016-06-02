@@ -7,10 +7,10 @@ fade = setInterval(function(){
 },200);
 */
 
-value = $('#test').val();
-
 
 setInterval(function(){
+    
+value = $('#test').val();
 $('body').append('<h1>' + value + '</h1>');
 $('#string').text(value);
 
